@@ -1,0 +1,252 @@
+#top{
+	position:relative;
+	margin-top:0
+	width:100%;
+	height:50px;
+}
+#container{
+	margin-top:10px;
+	height:90%;
+	width:98%;
+	margin-left:auto;
+	margin-right:auto;
+	min-width:720px;
+}
+#loginbox{
+	margin:80px auto;
+	height:350px;
+	width:250px;
+	background-color:#ECF4FD;
+	border-radius: 5px;
+	border:5px solid;
+	border-color:#626262;
+	font-family:"verdana";
+	font-size:12px;
+	padding:3px;
+}
+.msgbox{
+	margin-top:20px;
+	font-weight:bold;
+	border:1px solid #FF0000;
+	background-color:#FFB3B3;
+	width:95%;
+	text-align:center;
+	height:15px;
+}
+#loginbox form p{
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+}
+body {
+	margin:0;
+	height:100%;
+	width:100%;
+}
+.body{
+    background-image: url('../img/batik.png');
+}
+.bg2{
+    background-image: url('../img/batik.png');
+	background-position:center;
+}
+#loginbox input[type='text'],#loginbox input[type='password'],#loginbox input[type="submit"]{
+	width:98%;
+	padding:3px;
+	margin-bottom:10px;
+}
+#menu{
+	width:100%;
+	background-color:#000099;
+}
+#menu a,#menu a:visited,#menu a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFFFCC;
+	padding:5px;
+	font-family:'verdana';
+	font-size:12px;
+}
+#menu a:hover{
+	color:#FFCC00;
+}
+#kiri{
+	float:left;
+	width:30%;
+	margin:0px auto 0 auto;
+	height:99%;
+	background:#FFFDF0;
+	border:1px solid #AE7433;
+	border-radius:5px;
+	overflow:auto;
+	padding:2px;
+}
+
+#kanan{
+	float:right;
+	width:68%;
+	margin:0px auto 0 auto;
+	height:99%;
+	background:#FFFDF0;
+	border:1px solid #AE7433;
+	border-radius:5px;
+	padding:2px;
+	overflow:auto;
+}
+#atas{
+	float:left;
+	width:98%;
+	margin:30px 20px 0 10px;
+	height:99%;
+	background:#EAEAEA;
+	border:1px solid;
+	border-radius:10px;
+	padding:5px;
+	overflow:auto;
+	font-family: "verdana";
+	font-size:12px;
+	font-weight:bold;
+}
+#tengah{
+	float:left;
+	width:80%;
+	margin:30px 20px 0 10px ;
+	background:#EAEAEA;
+	border:1px solid;
+	border-radius:10px;
+	padding:5px;
+	overflow:auto;
+	font-family: "verdana";
+	font-size:12px;
+	font-weight:bold;
+}
+#atas form input[type="text"]{
+	width:550px;
+}
+.formentri label{
+}
+.formentri input[type="text"]{
+	width:100%;
+	margin-bottom:10px;
+}
+.formentri input[type="radio"]{
+	margin-bottom:10px;
+}
+.formentri p{
+	width:200px;
+}
+.formentri{
+	font-family:'verdana';
+	font-size:11px;
+	padding:2px;
+}
+.formentri p{
+	font-weight:bold;
+}
+.kotakisian{
+	padding:5px;
+	margin-top:10px;
+	margin-left:10px;
+	width:280px;
+	height:40px;
+	border-radius:5px;
+	border:1px #000033 solid;
+	background:#e8f7ff;
+}
+.kotakisian2{
+	padding:5px;
+	margin-top:10px;
+	margin-left:10px;
+	width:280px;
+	height:120px;
+	border-radius:5px;
+	border:1px #000033 solid;
+	background:#e8f7ff;
+}
+.tview th, .tview td{
+	font-family:"verdana";
+	font-size:12px;
+	padding: 2px;
+}
+.tview th{
+	background:#C6ECFF;
+	color:#000000;
+	border:0.2px solid #E4E4E4;
+}
+.tview td{
+	border:0.2px solid #E4E4E4;
+	padding-top:5px;
+	background-color:#FFFFFF;
+}
+.tview a{
+	margin-left:2px;
+}
+.tview{
+	width:100%;
+	border:0px;
+}
+.tviewkecil{
+	width:100%;
+	border:0px;
+}
+
+
+#kirian,#kananan,#tengahan{
+	float:left;
+	width:30%;
+	margin:30px 20px 0 10px;
+	height:550px;
+	background:#EAEAEA;
+	border:1px solid;
+	border-radius:10px;
+	overflow:auto;
+	padding:5px
+}
+.judulForm{
+	font-family:'verdana';
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.judulgede{
+	font-family:'verdana';
+	font-size:24px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.judulkecil{
+	font-family:'verdana';
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+#containergambar{
+	height: 650px;
+	width: 95%;
+	overflow:auto;
+	margin:10px auto;
+}
+.gambar{
+	height:180px;
+	width:120px;
+	border:1px solid;
+	margin:5px 5px 5px 5px;
+	float:left;
+}
+.gambar img{
+	text-align:center:
+	margin:1px auto;
+	height:150px;
+	width:120px;
+}
+.tviewnilai{
+	width:900px;
+	font-family:'verdana';
+	font-size:24px;
+	background:#FFFFFF;
+}
